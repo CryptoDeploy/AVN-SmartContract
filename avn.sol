@@ -120,8 +120,8 @@ contract Avnrich {
     string public symbol = "AVN";
     uint8 constant public decimals = 18;
     uint8 constant internal dividendFee_ = 10;
-    uint256 constant internal tokenPriceInitial_ = 0.00000001 ether;
-    uint256 constant internal tokenPriceIncremental_ = 0.00000001 ether;
+    uint256 constant internal tokenPriceInitial_ = 0.0000000001 ether;
+    uint256 constant internal tokenPriceIncremental_ = 0.0000000001 ether;
     uint256 constant internal magnitude = 2**64;
     
     // proof of stake (defaults at 1 token)
